@@ -70,4 +70,4 @@ class YLBotClient(discord.Client):
                 await name.channel.send('Вы должны быть в голосовом канале чтобы использовать эту команду')
 intents = discord.Intents.default()
 client = YLBotClient(intents=intents)
-client.run("MTA5OTk3NDUzMTcyMTk5NDI5MQ.GwavQk.t6UHFiCQftRiv1WMRUfiKafEDmRero8GihK-GY")
+client.run("TOKEN")
